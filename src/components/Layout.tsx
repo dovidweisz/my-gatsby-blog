@@ -3,10 +3,15 @@ import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 
-class Layout extends React.Component {
+export interface LayoutProps {
+  location: any
+  title: string
+}
+
+class Layout extends React.Component<LayoutProps> {
   render() {
     const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
+    const rootPath = `/`
     let header
 
     if (location.pathname === rootPath) {
