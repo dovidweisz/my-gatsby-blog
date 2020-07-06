@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dovidw.com
+Token: 2ff90298fb012cc0cf3d0d96d6b97f0d5a964d62ce0b00ceed8a2ecf598ad476
